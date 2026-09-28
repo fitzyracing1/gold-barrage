@@ -1,2 +1,5 @@
 # gold-barrage
-Barrage plain-language clone of fitzyracing1/gold
+
+Barrage clone of [fitzyracing1/gold](https://github.com/fitzyracing1/gold).
+
+Read [listing.barrage](listing.barrage).

@@ -1,0 +1,43 @@
+# Gold
+
+> A snapshot of the analogue valuation engine that turns spoken or typed words into a dollar estimate.
+
+## Purpose
+Explain the gold snapshot as a money-from-speech desk using the sandbox metric. Source: fitzyracing1/gold.
+
+## How it works (plain English)
+1. Take spoken or typed words.
+2. Run them through the analogue valuation engine.
+3. Use the metric 2 times x times c minus d equals 1.
+4. Print a dollar estimate.
+
+## Key ideas
+- Analogue valuation (words become a money number)
+- Snapshot (this repo is one frozen copy of that engine)
+- Metric 2xc-d=1 (the sandbox unit the estimate must satisfy)
+
+## The actual code
+```
+# source: fitzyracing1/gold
+words = stt_or_text()
+estimate = analogue_valuation(words)
+check(2 * x * c - d == 1)
+```
+
+## Line-by-line translation
+1. words = stt_or_text() → “take speech or typing”
+2. estimate = analogue_valuation(words) → “turn those words into a dollar figure”
+3. check(2 * x * c - d == 1) → “make the sandbox metric hold”
+
+## Decisions the program makes
+- If words arrive → produce an estimate
+- If the metric fails → mark the estimate unfinished
+
+## What a person would notice
+A money number comes from speech, with a named check beside it.
+
+## Current status
+Barrage clone of the gold snapshot repo.
+
+## Next possible steps
+Open fitzyracing1/gold and run one spoken or typed line through the engine.
